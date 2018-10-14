@@ -87,6 +87,7 @@ export class TextInputMaskMethods {
     getElement(): TextInput
     getRawValue(): string
     isValid(): boolean
+		setInputRef(ref: any): void
 }
 
 // TextInputMasked
